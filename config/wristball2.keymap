@@ -88,8 +88,8 @@
 
         NUM {
             bindings = <
-&trans  &trans  &trans
-&trans  &trans  &trans
+&mkp MB5  &mkp MB4  &trans
+&trans    &trans    &trans
             >;
         };
 
