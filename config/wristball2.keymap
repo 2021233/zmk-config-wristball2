@@ -39,12 +39,12 @@
         compatible = "zmk,combos";
 
         middle_click {
-            bindings = <&mo 5>;
+            bindings = <&mkp MB3>;
             key-positions = <3 2>;
         };
 
-        middle {
-            bindings = <&mkp MB3>;
+        scroll {
+            bindings = <&mo 5>;
             key-positions = <1 2>;
         };
     };
