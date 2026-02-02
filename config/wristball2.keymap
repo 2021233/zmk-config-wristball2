@@ -38,29 +38,14 @@
     combos {
         compatible = "zmk,combos";
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
+        middle_click {
+            bindings = <&mo 5>;
+            key-positions = <3 2>;
         };
 
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
-        };
-
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
+        middle {
+            bindings = <&mkp MB3>;
+            key-positions = <1 2>;
         };
     };
 
@@ -89,8 +74,8 @@
 
         default_layer {
             bindings = <
-&lt 5 ESC  &mkp MB1       &mkp MB2
-&mkp MB3   &pmw_rotation  &mo 6
+&mkp MB4  &mkp MB5       &mkp LCLK
+&mkp MB2  &pmw_rotation  &mo 6
             >;
         };
 
