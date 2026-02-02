@@ -88,15 +88,15 @@
 
         NUM {
             bindings = <
-&mkp MB5  &mkp MB4  &trans
-&trans    &trans    &trans
+&trans  &trans  &trans
+&trans  &trans  &trans
             >;
         };
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans
-&trans  &trans  &trans
+&mkp MB5  &mkp MB4  &trans
+&trans    &trans    &trans
             >;
         };
 
