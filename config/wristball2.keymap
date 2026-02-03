@@ -81,29 +81,29 @@
 
         vertical {
             bindings = <
-&mkp MB5  &mkp MB4  &trans
-&trans    &trans    &trans
+&mkp MB5      &mkp MB4  &trans
+&kp NUMBER_1  &trans    &trans
             >;
         };
 
         horizontal {
             bindings = <
-&trans  &trans  &trans
-&trans  &trans  &trans
+&trans        &trans  &trans
+&kp NUMBER_2  &trans  &trans
             >;
         };
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans
-&trans  &trans  &trans
+&trans        &trans  &trans
+&kp NUMBER_3  &trans  &trans
             >;
         };
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans
-&trans  &trans  &trans
+&trans        &trans  &trans
+&kp NUMBER_4  &trans  &trans
             >;
         };
 
