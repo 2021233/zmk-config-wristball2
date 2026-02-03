@@ -79,14 +79,14 @@
             >;
         };
 
-        FUNCTION {
+        vertical {
             bindings = <
 &mkp MB5  &mkp MB4  &trans
 &trans    &trans    &trans
             >;
         };
 
-        zero {
+        horizontal {
             bindings = <
 &trans  &trans  &trans
 &trans  &trans  &trans
