@@ -38,13 +38,13 @@
     combos {
         compatible = "zmk,combos";
 
-        middle_click {
-            bindings = <&mkp MB3>;
+        scroll {
+            bindings = <&mo 5>;
             key-positions = <3 2>;
         };
 
-        scroll {
-            bindings = <&mo 5>;
+        middle_click {
+            bindings = <&mkp MB3>;
             key-positions = <1 2>;
         };
     };
@@ -74,43 +74,43 @@
 
         default_layer {
             bindings = <
-&mkp MB4  &mkp MB5       &mkp LCLK
+&mkp MB4  &mkp MB5       &mkp MB1
 &mkp MB2  &pmw_rotation  &mo 6
             >;
         };
 
         vertical {
             bindings = <
-&mkp MB5      &mkp MB4  &trans
-&kp NUMBER_1  &trans    &trans
+&trans  &trans  &trans
+&trans  &trans  &trans
             >;
         };
 
         horizontal {
             bindings = <
-&trans        &trans  &trans
-&kp NUMBER_2  &trans  &trans
+&trans  &trans  &trans
+&trans  &trans  &trans
             >;
         };
 
         layer_3 {
             bindings = <
-&trans        &trans  &trans
-&kp NUMBER_3  &trans  &trans
+&trans  &trans  &trans
+&trans  &trans  &trans
             >;
         };
 
         MOUSE {
             bindings = <
-&trans        &trans  &trans
-&kp NUMBER_4  &trans  &trans
+&trans  &trans  &trans
+&trans  &trans  &trans
             >;
         };
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans
-&trans  &trans  &trans
+&mkp MB5  &mkp MB4  &trans
+&trans    &trans    &trans
             >;
         };
 
