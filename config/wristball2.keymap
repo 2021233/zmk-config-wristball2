@@ -109,8 +109,8 @@
 
         SCROLL {
             bindings = <
-&mkp MB5  &mkp MB4  &trans
-&trans    &trans    &trans
+&kp ESCAPE  &mkp MB3  &trans
+&trans      &trans    &trans
             >;
         };
 
