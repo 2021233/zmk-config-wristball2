@@ -75,7 +75,7 @@
 
         default_layer {
             bindings = <
-&mkp MB4  &mkp MB5       &mkp MB1
+&mkp MB5  &mkp MB4       &mkp MB1
 &mkp MB2  &pmw_rotation  &mo 6
             >;
         };
