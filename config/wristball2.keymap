@@ -39,7 +39,7 @@
         compatible = "zmk,combos";
 
         scroll {
-            bindings = <&mo 5>;
+            bindings = <&lt 5 ENTER>;
             key-positions = <3 2>;
             slow-release;
         };
